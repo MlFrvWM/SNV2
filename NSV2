@@ -1,19 +1,17 @@
+local Library = loadstring(game:HttpGetAsync("https://github.com/ActualMasterOogway/Fluent-Renewed/releases/latest/download/Fluent.luau"))()
 local SaveManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/SaveManager.luau"))()
 local InterfaceManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/InterfaceManager.luau"))()
 
-local player = game.Players.LocalPlayer
-local displayName = player.DisplayName
-
 local Window = Library:CreateWindow{
-	Title = displayName .. " SN PRIVATE SCRIPT",
-	SubTitle = "By SN",
-	TabWidth = 125,
-	Size = UDim2.fromOffset(830, 525),
-	Resize = true,
-	MinSize = Vector2.new(470, 380),
-	Acrylic = true,
-	Theme = "VSC Dark High Contrast",
-	MinimizeKey = Enum.KeyCode.RightControl
+    Title = "SN Private Script",
+    SubTitle = "By SN",
+    TabWidth = 125,
+    Size = UDim2.fromOffset(830, 525),
+    Resize = true,
+    MinSize = Vector2.new(470, 380),
+    Acrylic = true,
+    Theme = "DuoTone Dark Sea",
+      MinimizeKey = Enum.KeyCode.RightControl
 }
 
 local Tabs = {
