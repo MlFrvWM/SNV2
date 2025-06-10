@@ -10,7 +10,7 @@ local Window = Library:CreateWindow{
     Resize = true,
     MinSize = Vector2.new(470, 380),
     Acrylic = true,
-    Theme = "Purple",
+    Theme = "DuoTone Dark Sea",
       MinimizeKey = Enum.KeyCode.RightControl
 }
 
